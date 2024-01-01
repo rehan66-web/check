@@ -1,0 +1,28 @@
+.navbar{
+    background-color: #da1212 !important;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+  .game_head{
+    text-align: center;
+  }
+  .games_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .games_container img {
+     border-radius: 50%;
+     width: 180px;
+     height: 180px;
+  }
+  .content p {
+    text-align: center;
+  }

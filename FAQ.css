@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .faq-section {
+    margin-top: 30px;
+  }
+  
+  .faq-item {
+    margin-bottom: 15px;
+  }
+  
+  .faq-toggle {
+    display: none;
+  }
+  
+  .faq-question {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .faq-answer {
+    display: none;
+  }
+  
+  .faq-toggle:checked + .faq-question + .faq-answer {
+    display: block;
+  }
+  
